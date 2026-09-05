@@ -81,13 +81,15 @@ Typical commercial EDFAs have:
 
 ## Sample Output
 
-Graph: Gain spectrum curve peaking near 1550 nm.
-
-<img width="528" height="388" alt="image" src="https://github.com/user-attachments/assets/15e6aaff-d3f3-42d1-aa76-66bb575b6c93" />
-
-<img width="518" height="469" alt="image" src="https://github.com/user-attachments/assets/cce70c57-34f5-4634-a90e-df47c4e45b62" />
-
-<img width="561" height="461" alt="image" src="https://github.com/user-attachments/assets/0f298da2-0dc1-43fd-bab6-0641a5210748" />
+```text
+EDFA Performance Analysis
+-------------------------
+Peak Gain        : 30.00 dB
+Input Power      : -10.00 dBm
+Output Power     : 20.00 dBm
+Noise Figure     : 4.77 dB
+ASE Power        : 1.191e-06 W
+```
 
 ## Python Code
 
@@ -169,15 +171,16 @@ plt.show()
 
 ## Output
 
-```text
-EDFA Performance Analysis
--------------------------
-Peak Gain        : 30.00 dB
-Input Power      : -10.00 dBm
-Output Power     : 20.00 dBm
-Noise Figure     : 4.77 dB
-ASE Power        : 1.191e-06 W
-```
+
+Graph: Gain spectrum curve peaking near 1550 nm.
+
+<img width="528" height="388" alt="image" src="https://github.com/user-attachments/assets/15e6aaff-d3f3-42d1-aa76-66bb575b6c93" />
+
+<img width="518" height="469" alt="image" src="https://github.com/user-attachments/assets/cce70c57-34f5-4634-a90e-df47c4e45b62" />
+
+<img width="561" height="461" alt="image" src="https://github.com/user-attachments/assets/0f298da2-0dc1-43fd-bab6-0641a5210748" />
+
+
 
 The simulated gain spectrum shows that the EDFA provides maximum gain near **1550 nm**, which lies within the C-band. The amplifier provides a peak gain of approximately **30 dB** for an input signal power of **−10 dBm**, resulting in an output power of approximately **20 dBm**.
 
